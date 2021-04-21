@@ -1,0 +1,42 @@
+.root {
+  display: inline-flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  z-index: 1;
+  border: 1px solid black;
+  background-color: #007eff;
+}
+
+.logout {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.root button {
+  background-color: #00ff1b85;
+    color: white;
+    border-radius: 5%;
+    outline: none;
+    width: 10%;
+    font-size: 21px;
+    word-break: break-word;
+}
+
+select { 
+  background-color: #00ff1b85;
+  color: white;
+  font-size: 21px;
+  outline: none;
+}
+
+.root select option {
+  background-color: #56c289;
+  color: white;
+}
+
+
+

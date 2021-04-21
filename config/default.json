@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://admin:passwords@flashcards-jo5yq.mongodb.net/flashcards?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}

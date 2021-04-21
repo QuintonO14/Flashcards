@@ -1,0 +1,90 @@
+.adding {
+  width: 95%;
+    height: 100%;
+    border: 3px solid transparent;
+    text-align: center;
+    position: relative;
+    border-radius: 3%;
+}
+
+.add {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5%;
+  font-size: 18px;
+  background-color: #007eff;
+  color: white;
+}
+
+.card {
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  border: 3px solid black;
+  text-align: center;
+  position: relative;
+  border-radius: 3%;
+}
+
+.container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: repeat(5, minmax(50%, 1fr));
+  padding-top: 2%;
+  grid-row-gap: 2%;
+  padding: 1%;
+  padding-left: 0.2%;
+  column-gap: 1%;
+}
+
+.cardText {
+  font-size: 24px;
+  overflow-wrap: break-word;
+  margin-top: 15%;
+}
+
+.flipButton {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #007eff;
+  border: none;
+  border-radius: 3%;
+  outline: none;
+}
+
+.margin {
+  margin-top: 15%;
+}
+
+.notice {
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.reveal {
+  border: 1px solid black;
+  color: #000;
+  background-color: "gray";
+  height: 48px;
+  padding: "0 30px";
+}
+
+.trash {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ff0000c7;
+  color: white;
+  height: 16%;
+  width: 100%;
+  border: none;
+  border-radius: 3%;
+}
+
+
